@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinnet.Web", "Dinnet.Web\Dinnet.Web.csproj", "{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinnet.Entidades", "Dinnet.Entidades\Dinnet.Entidades.csproj", "{71BD424D-D9E8-4B76-A176-1CE9C9ABBD8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinnet.DataAccess", "Dinnet.DataAccess\Dinnet.DataAccess.csproj", "{AA445A16-0BCB-44C4-9C98-BF3EE43E39F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinnet.Proxy", "Dinnet.Proxy\Dinnet.Proxy.csproj", "{221E92E9-59C6-4A33-82A3-10306C18336B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BD424D-D9E8-4B76-A176-1CE9C9ABBD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BD424D-D9E8-4B76-A176-1CE9C9ABBD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BD424D-D9E8-4B76-A176-1CE9C9ABBD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BD424D-D9E8-4B76-A176-1CE9C9ABBD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA445A16-0BCB-44C4-9C98-BF3EE43E39F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA445A16-0BCB-44C4-9C98-BF3EE43E39F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA445A16-0BCB-44C4-9C98-BF3EE43E39F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA445A16-0BCB-44C4-9C98-BF3EE43E39F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221E92E9-59C6-4A33-82A3-10306C18336B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221E92E9-59C6-4A33-82A3-10306C18336B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221E92E9-59C6-4A33-82A3-10306C18336B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221E92E9-59C6-4A33-82A3-10306C18336B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {863DCF0B-973D-4D16-BAE8-C2EB4CE9969C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+D:\test\Dinnet\Dinnet\Dinnet.DataAccess\bin\Debug\Dinnet.DataAccess.dll
+D:\test\Dinnet\Dinnet\Dinnet.DataAccess\bin\Debug\Dinnet.DataAccess.pdb
+D:\test\Dinnet\Dinnet\Dinnet.DataAccess\obj\Debug\Dinnet.DataAccess.csproj.AssemblyReference.cache
+D:\test\Dinnet\Dinnet\Dinnet.DataAccess\obj\Debug\Dinnet.DataAccess.csproj.CoreCompileInputs.cache
+D:\test\Dinnet\Dinnet\Dinnet.DataAccess\obj\Debug\Dinnet.DataAccess.dll
+D:\test\Dinnet\Dinnet\Dinnet.DataAccess\obj\Debug\Dinnet.DataAccess.pdb
+D:\test\Dinnet\Dinnet\Dinnet.DataAccess\bin\Debug\Dinnet.Entidades.dll
+D:\test\Dinnet\Dinnet\Dinnet.DataAccess\bin\Debug\Dinnet.Entidades.pdb
+D:\test\Dinnet\Dinnet\Dinnet.DataAccess\obj\Debug\Dinnet.D.4FB6EB7C.Up2Date

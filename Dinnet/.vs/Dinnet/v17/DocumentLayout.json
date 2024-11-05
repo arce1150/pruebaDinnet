@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\test\\Dinnet\\Dinnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}|Dinnet.Web\\Dinnet.Web.csproj|d:\\test\\dinnet\\dinnet\\dinnet.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}|Dinnet.Web\\Dinnet.Web.csproj|solutionrelative:dinnet.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}|Dinnet.Web\\Dinnet.Web.csproj|d:\\test\\dinnet\\dinnet\\dinnet.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}|Dinnet.Web\\Dinnet.Web.csproj|solutionrelative:dinnet.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{221E92E9-59C6-4A33-82A3-10306C18336B}|Dinnet.Proxy\\Dinnet.Proxy.csproj|d:\\test\\dinnet\\dinnet\\dinnet.proxy\\proxyinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{221E92E9-59C6-4A33-82A3-10306C18336B}|Dinnet.Proxy\\Dinnet.Proxy.csproj|solutionrelative:dinnet.proxy\\proxyinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA445A16-0BCB-44C4-9C98-BF3EE43E39F3}|Dinnet.DataAccess\\Dinnet.DataAccess.csproj|d:\\test\\dinnet\\dinnet\\dinnet.dataaccess\\business\\inventariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA445A16-0BCB-44C4-9C98-BF3EE43E39F3}|Dinnet.DataAccess\\Dinnet.DataAccess.csproj|solutionrelative:dinnet.dataaccess\\business\\inventariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA445A16-0BCB-44C4-9C98-BF3EE43E39F3}|Dinnet.DataAccess\\Dinnet.DataAccess.csproj|d:\\test\\dinnet\\dinnet\\dinnet.dataaccess\\interfaces\\iinventariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA445A16-0BCB-44C4-9C98-BF3EE43E39F3}|Dinnet.DataAccess\\Dinnet.DataAccess.csproj|solutionrelative:dinnet.dataaccess\\interfaces\\iinventariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}|Dinnet.Web\\Dinnet.Web.csproj|d:\\test\\dinnet\\dinnet\\dinnet.web\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C8BAF5-379C-410E-A215-9F3AE36AB9BD}|Dinnet.Web\\Dinnet.Web.csproj|solutionrelative:dinnet.web\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\test\\Dinnet\\Dinnet\\Dinnet.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dinnet.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\test\\Dinnet\\Dinnet\\Dinnet.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Dinnet.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T17:39:44.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\test\\Dinnet\\Dinnet\\Dinnet.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Dinnet.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\test\\Dinnet\\Dinnet\\Dinnet.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Dinnet.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:37:33.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProxyInventario.cs",
+              "DocumentMoniker": "D:\\test\\Dinnet\\Dinnet\\Dinnet.Proxy\\ProxyInventario.cs",
+              "RelativeDocumentMoniker": "Dinnet.Proxy\\ProxyInventario.cs",
+              "ToolTip": "D:\\test\\Dinnet\\Dinnet\\Dinnet.Proxy\\ProxyInventario.cs",
+              "RelativeToolTip": "Dinnet.Proxy\\ProxyInventario.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:33:36.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventarioRepository.cs",
+              "DocumentMoniker": "D:\\test\\Dinnet\\Dinnet\\Dinnet.DataAccess\\Business\\InventarioRepository.cs",
+              "RelativeDocumentMoniker": "Dinnet.DataAccess\\Business\\InventarioRepository.cs",
+              "ToolTip": "D:\\test\\Dinnet\\Dinnet\\Dinnet.DataAccess\\Business\\InventarioRepository.cs",
+              "RelativeToolTip": "Dinnet.DataAccess\\Business\\InventarioRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:02:39.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IInventarioRepository.cs",
+              "DocumentMoniker": "D:\\test\\Dinnet\\Dinnet\\Dinnet.DataAccess\\Interfaces\\IInventarioRepository.cs",
+              "RelativeDocumentMoniker": "Dinnet.DataAccess\\Interfaces\\IInventarioRepository.cs",
+              "ToolTip": "D:\\test\\Dinnet\\Dinnet\\Dinnet.DataAccess\\Interfaces\\IInventarioRepository.cs",
+              "RelativeToolTip": "Dinnet.DataAccess\\Interfaces\\IInventarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:59:24.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\test\\Dinnet\\Dinnet\\Dinnet.Web\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Dinnet.Web\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\test\\Dinnet\\Dinnet\\Dinnet.Web\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Dinnet.Web\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:52:51.602Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

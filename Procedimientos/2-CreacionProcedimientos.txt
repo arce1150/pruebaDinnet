@@ -1,0 +1,73 @@
+ 
+create procedure sp_Insert_NVENTARIO(
+	@COD_CIA varchar(50)  ,
+	@COMPANIA_VENTA_3 varchar(50)  ,
+	@ALMACEN_VENTA varchar(50)  ,
+	@TIPO_MOVIMIENTO varchar(50)  ,
+	@TIPO_DOCUMENTO varchar(50)  ,
+	@NRO_DOCUMENTO varchar(50)  ,
+	@COD_ITEM_2 varchar(50)  ,
+	@PROVEEDOR varchar(50) ,
+	@ALMACEN_DESTINO varchar(50) ,
+	@CANTIDAD varchar(50) , 
+	@MOTIVO varchar(50) ,
+	@FECHA_TRANSACCION varchar(50) 
+	 
+)
+as
+begin
+insert into MOV_INVENTARIO(
+	COD_CIA   ,
+	COMPANIA_VENTA_3  ,
+	ALMACEN_VENTA   ,
+	TIPO_MOVIMIENTO   ,
+	TIPO_DOCUMENTO ,
+	NRO_DOCUMENTO   ,
+	COD_ITEM_2   ,
+	PROVEEDOR  ,
+	ALMACEN_DESTINO   ,
+	CANTIDAD  , 
+	MOTIVO  ,
+	FECHA_TRANSACCION   
+) values(
+	@COD_CIA   ,
+	@COMPANIA_VENTA_3  ,
+	@ALMACEN_VENTA   ,
+	@TIPO_MOVIMIENTO   ,
+	@TIPO_DOCUMENTO ,
+	@NRO_DOCUMENTO   ,
+	@COD_ITEM_2   ,
+	@PROVEEDOR  ,
+	@ALMACEN_DESTINO   ,
+	@CANTIDAD  , 
+	@MOTIVO  ,
+	@FECHA_TRANSACCION  
+)
+end
+go
+
+create procedure sp_filtro_NVENTARIO(
+	@filtro varchar(80)
+)
+as
+begin
+	select
+	i.[COD_CIA]
+	,i.[COMPANIA_VENTA_3]
+	,i.[ALMACEN_VENTA]
+	,i.[TIPO_MOVIMIENTO]
+	,i.[TIPO_DOCUMENTO]
+	,i.[NRO_DOCUMENTO]
+	,i.[COD_ITEM_2]
+	,i.PROVEEDOR
+	,i.ALMACEN_DESTINO
+	,i.CANTIDAD
+	,i.COSTO_UNITARIO
+	,i.MOTIVO
+	,i.DOC_REF_1
+	,i.FECHA_TRANSACCION
+	from MOV_INVENTARIO i
+	where (@filtro is null or @filtro ='' or i.ALMACEN_DESTINO like '%'+@filtro+'%' )
+	and (@filtro is null or @filtro ='' or i.[NRO_DOCUMENTO] =  @filtro)
+end
+go

@@ -1,0 +1,11 @@
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\bin\Debug\Dinnet.Proxy.dll
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\bin\Debug\Dinnet.Proxy.pdb
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\obj\Debug\Dinnet.Proxy.csproj.AssemblyReference.cache
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\obj\Debug\Dinnet.Proxy.csproj.CoreCompileInputs.cache
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\obj\Debug\Dinnet.Proxy.dll
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\obj\Debug\Dinnet.Proxy.pdb
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\bin\Debug\Dinnet.DataAccess.dll
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\bin\Debug\Dinnet.Entidades.dll
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\bin\Debug\Dinnet.DataAccess.pdb
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\bin\Debug\Dinnet.Entidades.pdb
+D:\test\Dinnet\Dinnet\Dinnet.Proxy\obj\Debug\Dinnet.P.53974BB2.Up2Date

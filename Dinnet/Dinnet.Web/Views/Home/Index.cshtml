@@ -1,0 +1,119 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Inventario</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div id="divcontainer" class="container">
+        <h3>Registro de movimiento</h3>
+        <div class="form-horizontal">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="txtcodCompania">Codigo compañia:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="txtcodCompania" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="txtcodVenta">Codigo venta:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="txtcodVenta" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="txtcodalmacen">Cod. almacen:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="txtcodalmacen" />
+                </div>
+            </div>
+        </div> 
+    </div>
+     <div class="row">
+         <div class="col-sm-12">
+             <fieldset>
+                 <legend>Busqueda de movimiento:</legend>
+                 <div class="form-group">
+                     <label class="col-sm-3 control-label" for="txtfiltro">Filtrar</label>
+                     <div class="col-sm-6">
+                         <input type="text" class="form-control" id="txtfiltro" placeholder="Ingrese almacen, nro documento" />
+                     </div>
+                     <div class="col-sm-3">
+                         <input type="button" id="btnbuscar" class="btn btn-primary" value="Buscar" />
+                     </div>
+                 </div>
+             </fieldset>
+          
+         </div>
+     </div>
+    <div class="row">
+        <div class="col-12">
+
+        </div>
+        <div class="col-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Venta</th>
+                        <th>Almacen</th>
+                        <th>Tipo movimiento</th>
+                        <th>Nro Documento</th>
+                        <th>Proveedor</th>
+                        <th>Costo U.</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody id="tbl"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        let PAGE_URL = "@Url.Content("~/Home")";
+        let tbl = $("#tbl");
+        let btnbuscar = $("#btnbuscar");
+        let txtfiltro = $("#txtfiltro");
+        $(document).ready(function () {
+            FiltrarInventario();
+            $(btnbuscar).click(function () {
+                FiltrarInventario();
+            });
+        });
+        function FiltrarInventario() {
+                $(tbl).html("");
+                $.ajax({
+                    type: "post",
+                    url: PAGE_URL + "/FiltrarInventario",
+                    data: JSON.stringify({ filtro: $(txtfiltro).val() }),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        //var lista = Object.keys(response.d);
+                        var inventarios = response.d;
+                        var html = "";
+                        for (var i = 0; i < inventarios.length; i++) {
+                            html += "<tr>";
+                            html += "<td>" + inventarios[i].CodigoCompania +"</td>";
+                            html += "<td>" + inventarios[i].CompaniaVenta +"</td>";
+                            html += "<td>" + inventarios[i].AlmacenVenta +"</td>";
+                            html += "<td>" + inventarios[i].TipoMovimiento +"</td>";
+                            html += "<td>" + inventarios[i].Nrodocumento +"</td>";
+                            html += "<td>" + inventarios[i].Proveedor +"</td>";
+                            html += "<td>" + inventarios[i].CostoUnitario +"</td>";
+                            html += "<td>" + inventarios[i].FechaTransaccion +"</td>";
+                            html +="</tr>";
+                        }
+                        $(tbl).html(html);
+                    }
+                });
+            }
+    </script>
+</body>
+</html>

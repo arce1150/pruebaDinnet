@@ -1,0 +1,67 @@
+create database bdDinnet
+go
+
+use bdDinnet;
+go
+
+CREATE TABLE [dbo].[MOV_INVENTARIO](
+	[COD_CIA] [varchar](50) NOT NULL,
+	[COMPANIA_VENTA_3] [varchar](50) NOT NULL,
+	[ALMACEN_VENTA] [varchar](50) NOT NULL,
+	[TIPO_MOVIMIENTO] [varchar](50) NOT NULL,
+	[TIPO_DOCUMENTO] [varchar](50) NOT NULL,
+	[NRO_DOCUMENTO] [varchar](50) NOT NULL,
+	[COD_ITEM_2] [varchar](50) NOT NULL,
+	[PROVEEDOR] [varchar](50) NULL,
+	[ALMACEN_DESTINO] [varchar](50) NULL,
+	[CANTIDAD] [varchar](50) NULL,
+	[COMPANIA_DESTINO] [varchar](50) NULL,
+	[COSTO_UNITARIO] [varchar](50) NULL,
+	[DOC_REF_1] [varchar](50) NULL,
+	[DOC_REF_2] [varchar](50) NULL,
+	[FECHA_TRANSACCION] [varchar](50) NULL,
+	[MOTIVO] [varchar](50) NULL,
+	[PRECIO_UNITARIO] [varchar](50) NULL,
+	[TIPO_DOC_REF] [varchar](50) NULL,
+	[UM_ITEM_3] [varchar](50) NULL,
+	[NRO_NOTA] [varchar](50) NULL,
+	[ROWVERSION] [varchar](50) NULL,
+	[USUARIO] [varchar](50) NULL,
+	[MONEDA] [varchar](50) NULL,
+	[COSTO_UNITARIO_ME] [varchar](50) NULL,
+	[COS_UNIT_EST] [varchar](50) NULL,
+	[COS_UNIT_ME_EST] [varchar](50) NULL,
+	[HORA_TRANSACCION] [varchar](50) NULL,
+	[F_ORDENCOMPRA] [varchar](50) NULL,
+	[C_SEC_OC] [varchar](50) NULL,
+	[C_SEC_DET_OC] [varchar](50) NULL,
+	[TIPO_DOC_REF_2] [varchar](50) NULL,
+	[OBSERVACION] [varchar](50) NULL,
+	[FECHA_VALORIZACION] [varchar](50) NULL,
+	[USUARIO_VALORIZA] [varchar](50) NULL,
+	[FACTOR] [varchar](50) NULL,
+	[COSTOS_ADICIONALES] [varchar](50) NULL,
+	[T_CAMBIO_VALORIZA] [varchar](50) NULL,
+	[PERIODO_CERRADO] [varchar](50) NULL,
+	[PLANILLA_CONSIGNA] [varchar](50) NULL,
+	[DOC_REF_3] [varchar](50) NULL,
+	[INGRESO_SALIDA] [varchar](50) NULL,
+	[SALDO_FINAL] [varchar](50) NULL,
+	[FLAG_URGENTE] [varchar](50) NULL,
+	[DOC_REF_4] [varchar](50) NULL,
+	[DOC_REF_5] [varchar](50) NULL,
+	[DOC_REF_6] [varchar](50) NULL,
+	[DOC_REF_7] [varchar](50) NULL,
+	[DOC_REF_8] [varchar](50) NULL,
+ CONSTRAINT [PK_MOV_INVENTARIO] PRIMARY KEY CLUSTERED 
+(
+	[COD_CIA] ASC,
+	[COMPANIA_VENTA_3] ASC,
+	[ALMACEN_VENTA] ASC,
+	[TIPO_MOVIMIENTO] ASC,
+	[TIPO_DOCUMENTO] ASC,
+	[NRO_DOCUMENTO] ASC,
+	[COD_ITEM_2] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
